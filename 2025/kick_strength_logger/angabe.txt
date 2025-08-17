@@ -1,0 +1,44 @@
+Teil 1
+------
+
+Einfachst mögliche Variante:
+- bei Start Bewegungsmesser
+- alle 100 ms Beschleunigung aufzeichnen
+Bei Knopfdruck:
+- protokoll löschen*
+
+Anweisung an Kinder: 
+- sollen ein paar Pässe/Schüsse machen nach einem von ihnen selbst zu bestimmendem Muster.
+- können sie dieses Muster bei Öffnen des Protokolls wieder erkennen?
+
+*wir wollen zu diesem Zeitpunkt das Logging noch nicht per Knopfdruck aktivierbar/deaktivierbar machen (siehe nächste Verbesserung)
+... dies führt bei Abriß der Stromverbindung allerdings zu unleserlichen Zeilen im Log (visuelle Ansicht funtkioniert nur bis zu diesem Punkt)
+... deshalb muss von den Kindern zu Beginn einer neuen Session das Protokoll gelöscht werden (per Knopfdruck), damit die Daten der Session wieder angezeigt werden können
+
+Teil 2
+------
+
+Ausbau:
+- Knopf A soll als Ein-/Ausschalter für Logging dienen
+=> Beschleunigung nur aufzeichnen wenn Logging aktiv
+- bei Start soll logging inaktiv sein
+- Display soll entsprechend anzeigen ob Logging aktiv (oder inaktiv)
+
+Anweisung an Kinder:
+- neues Feature testen, obigen Test wiederholen
+
+Teil 3
+------
+
+Ausbau:
+- wenn ein Schuss vom Sensor erkannt wird soll dessen Stärke angezeigt werden (z.B. mittels Symbol oder auf einer Skala von 1 - 5)
+
+Erweiterungsmöglichkeiten:
+- wenn ein besonders starker Schuss erkannt wird soll ein Ton oder eine Melodie abgespielt werden
+- mit Hand/Tischtennisschläger
+
+=====================
+
+TODO
+- textuelle Angabe
+- Daten mit Libre Calc darstellen?
